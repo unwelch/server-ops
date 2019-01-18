@@ -1,3 +1,6 @@
+80   proxy
+443  proxy
+
 3000 portainer
 
 2200 http unwelchdb
