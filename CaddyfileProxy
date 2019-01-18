@@ -1,0 +1,9 @@
+api.unwel.ch {
+    proxy / unwelch-backend:3000
+}
+
+unwel.ch {
+    gzip
+    proxy / unwelch-frontend:80
+}
+
